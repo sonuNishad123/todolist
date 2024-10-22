@@ -13,6 +13,7 @@ function Todolist() {
   function addTask(){
     const addNew =(newTask);
     setTasks([...tasks,addNew]);
+    setNewTask("")
    }
 
 
